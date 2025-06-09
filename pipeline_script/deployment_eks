@@ -13,7 +13,7 @@ pipeline {
         stage("Clone GitHub Repository") {
             steps {
                 // Clone the repository containing deployment and service files
-                git branch: 'main', url: 'https://github.com/pandacloud1/DevopsProject2.git'
+                git branch: 'main', url: 'https://github.com/Y-A-S-H17/DevopsProject2.git'
             }
         }
 		
